@@ -104,7 +104,7 @@ class KitchenBase(KitchenTaskRelaxV1):
                 else complete
             )
             if condition:  # element == self.tasks_to_complete[0]:
-                print("Task {} completed!".format(element))
+                #print("Task {} completed!".format(element))
                 completions.append(element)
             all_completed_so_far = all_completed_so_far and complete
         if self.REMOVE_TASKS_WHEN_COMPLETE:
